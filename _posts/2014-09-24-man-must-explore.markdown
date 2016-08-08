@@ -3,7 +3,7 @@ layout:     post
 title:      "Data Alchemy"
 subtitle:   "Turning Data into Gold"
 date:       2016-08-08 12:05:00
-author:     "Start Bootstrap"
+author:     "Marco Pineda"
 header-img: "img/post-bg-06.jpg"
 ---
 
