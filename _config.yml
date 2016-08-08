@@ -1,9 +1,9 @@
 # Site settings
 title: Owlery Club
-header-img: img/home-bg.jpg
+header-img: img/main_blog.jpg
 email: info@owlery.club
 copyright_name: Owlery Club
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Software Engineering + Design + Big Data"
 baseurl: "/blog"
 url: "https://mapineda.github.io"
 twitter_username: marcoapineda13
