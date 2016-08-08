@@ -1,35 +1,47 @@
 ---
 layout:     post
-title:      "Man must explore, and this is exploration at its greatest"
-subtitle:   "Problems look mighty small from 150 miles up"
-date:       2014-09-24 12:00:00
+title:      "Data Alchemy"
+subtitle:   "Turning Data into Gold"
+date:       2016-08-08 12:05:00
 author:     "Start Bootstrap"
 header-img: "img/post-bg-06.jpg"
 ---
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<p>Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p>Data Science industry paragraph. Major innovations (e.g., Haddop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p>To begin, we define a Data Product as a product that facilitates an end goal through the use of data. The fundamental idea in Data Mining is that you shouldn't solve the whole problem at once. Solve a simple piece that shows you whether there is interest, then build the MVP. Before you begin you must answer some questions:</p>
+  <ol>
+    <li>Does anyone want or need your product?</li>
+    <li>Does the customer care?</li>
+    <li>Is there a market fit?</li>
+    <li>How long do we have to answer questions </li>
+  </ol>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+<p>Below are some methods that should help anyone create a product out of data.</p>
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<h2 class="section-heading">Use Product Design</h2>
 
-<h2 class="section-heading">The Final Frontier</h2>
+<blockquote>The point is to have a conversation with your user...</blockquote>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p>One of the biggest challenges in Data Mining is getting the data in a useful form. One way to ensure clean data is to build a user interface that helps the user, and you, in the long run. To do this you can:</p>
+  <ul>
+    <li>Support type-ahead</li>
+    <li>Prompt the user with "Did you mean...?"</li>
+  </ul>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p>The point is to have a conversation with your user rather than just a form. Engage the user to help you. This makes your analysis that much easier. Doing this solves two problems. 1) You're getting the user more involved and 2) you're getting clean data. </p>
 
-<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+<h2>Make Winning Easy</h2>
 
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+<p>Back when Amazon first began, pages contained product details, reviews, price and a button to buy the item. A user had no way to do comparison shopping. The user either went to the search box or left the site and went back to Google. Amazon needed to build pages that channeled users to other relevant products. They could have built a sophisticated recommendations engine but opted for a simpler system. They built 'collaborative filters' that added "People who viewed this product also viewed" to their pages. This was huge! Now, users can do product research without leaving the site and if they don't see what they want right away, Amazon channels them to another page.</p>
 
-<h2 class="section-heading">Reaching for the Stars</h2>
+<p>Collaborative filters is a great example of starting with a simple product that becomes more complex, once you know it works. As you begin to scale, you have to track the data for all purchases, then build the data stores to hold the data, then a processing layer, then developing processes to update the data</p>
 
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+<h2 class="section-heading">Create a Product for the Real World</h2>
+
+<p>When you go into a store to buy something, you might look at prices and or reviews. Most likely you'll look at similar products near by. By adding a collaborative filter, Amazon built this experience into the web page. They crafted their digital product based off every day experiences centered around buying a product in the real world.</p>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
