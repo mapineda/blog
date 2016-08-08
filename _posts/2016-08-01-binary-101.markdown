@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Binary 101"
-date:       2016-08-09 12:06:00
+date:       2016-08-01 12:06:00
 author:     "Marco Pineda"
 header-img: "img/binary-blog.jpg"
 ---
