@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "Binary 101"
+date:       2016-08-01 12:06:00
+author:     "Marco Pineda"
+header-img: "img/binary-blog.jpg"
+---
+
+<p>1703 Gottfried Wilhelm Leibniz invents the Binary System.</p>
+
+<p>Leibniz (1646 -1716 ) was a German philosopher, polymath, and mathematician who wrote primarily in Latin and French. The modern binary number system was fully documented by Gottfried Leibniz in the 17th century in his article Explication de l'Arithmétique Binaire. Leibniz's system used 0 and 1, like the modern binary numeral system. Leibniz was aware of the I Ching and noted with fascination how its hexagrams correspond to the binary numbers from 0 to 111111.</p>
+
+<h2 class='section-heading'>Why Binary Matters</h2>
+
+<p>The binary system underlies modern technology of electronic digital computers. Computer memory comprises small elements that may only be in two states - off/on - that are associated with digits 0 and 1. Such an element is said to represent one bit - binary digit</p>
+
+<h2 class='section-heading'>How Binary Works</h2>
+
+<p>Binary numbers are written with only two symbols - 0 and 1. For example, a = 1101. Since symbols 0 and 1 are also a part of the decimal system and in fact of a positional system with any base, there's an ambiguity as to what 1101 actually stands for. To avoid confusion, the base is often written explicitly, like in a = (1101)2 or b = (1101)10. In the decimal system, 1101 is interpreted as 1 thousand 1 hundred 1, which is just a sum of powers of 10 with coefficients that are the digits of the number</p>
