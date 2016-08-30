@@ -9,7 +9,7 @@ header-img: "img/post-bg-06.jpg"
 
 <p>Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.</p>
 
-<p>Data Science industry paragraph. Major innovations (e.g., Haddop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.</p>
+<p>Data Science industry paragraph. Major innovations (e.g., Hadoop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.</p>
 
 <p>To begin, we define a Data Product as a product that facilitates an end goal through the use of data. The fundamental idea in Data Mining is that you shouldn't solve the whole problem at once. Solve a simple piece that shows you whether there is interest, then build the MVP. Before you begin you must answer some questions:</p>
   <ol>

@@ -1,6 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://mapineda.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mapineda.github.io/blog/" rel="alternate" type="text/html" /><updated>2016-08-11T18:35:32-05:00</updated><id>https://mapineda.github.io/blog/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Data Alchemy</title><link href="https://mapineda.github.io/blog/2016/08/08/data-alchemy/" rel="alternate" type="text/html" title="Data Alchemy" /><published>2016-08-08T07:05:00-05:00</published><updated>2016-08-08T07:05:00-05:00</updated><id>https://mapineda.github.io/blog/2016/08/08/data-alchemy</id><content type="html" xml:base="https://mapineda.github.io/blog/2016/08/08/data-alchemy/">&lt;p&gt;Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://mapineda.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mapineda.github.io/blog/" rel="alternate" type="text/html" /><updated>2016-08-29T23:20:48-05:00</updated><id>https://mapineda.github.io/blog/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Angular 2 vs React</title><link href="https://mapineda.github.io/blog/2016/08/14/angular-2-vs-react/" rel="alternate" type="text/html" title="Angular 2 vs React" /><published>2016-08-14T20:27:00-05:00</published><updated>2016-08-14T20:27:00-05:00</updated><id>https://mapineda.github.io/blog/2016/08/14/angular-2-vs-react</id><content type="html" xml:base="https://mapineda.github.io/blog/2016/08/14/angular-2-vs-react/">&lt;p&gt;
+Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:
+&lt;/p&gt;
 
-&lt;p&gt;Data Science industry paragraph. Major innovations (e.g., Haddop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Angular&lt;/li&gt;
+    &lt;li&gt;React&lt;/li&gt;
+    &lt;li&gt;Backbone&lt;/li&gt;
+    &lt;li&gt;Ember&lt;/li&gt;
+    &lt;li&gt;Polymer&lt;/li&gt;  
+  &lt;/ol&gt;
+
+&lt;p&gt;
+  This article takes an in depth look at the top two frameworks in the JavaScript development community, Angular 2 and React
+  &lt;/p&gt;
+
+&lt;h2&gt;Angular&lt;/h2&gt;
+&lt;p&gt;
+  Created in 2009 by Google, Angular is considered the most used JavaScript framework for developing Single Page Applications (SPA)
+  Most recently, Angular 2 hit beta. I&#39;ll be comparing Angular 1 vs Angular 2 in another blog post coming soon. This post will compare Angular 2 vs React
+
+  &lt;strong&gt;Disclaimer&lt;/strong&gt;: Technically, yes, React is a library and Angular, a framework; however, they still aid in the MV* functionality of the web and such can be compared.
+
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;!-- IMAGE OF ANGULAR HERE --&gt;
+  &lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/blog/img/angular-bg.png&quot; alt=&quot;Angular Image&quot; /&gt;
+  &lt;/a&gt;
+  &lt;span class=&quot;caption text-muted&quot;&gt;Angular Logo. Angular is maintained by Google.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3&gt;Features of Angular&lt;/h3&gt;
+&lt;p&gt;
+  Angular 2 is all component and directive based. Controllers and $scope have been replaced. They have been replaced by components and directives. Components are directives with a template. A component is in HTML called with the &lt;angularComponent&gt; tag, the name of the selector within the HTML.
+  &amp;lt;/p&amp;gt;
+
+
+  &lt;h3&gt;Consistency&lt;/h3&gt;
+  &lt;p&gt;
+  Angular is a framework and provides significantly more opinions and functionality out of the box. With React, you usually pull a number of other libraries off the shelf to build an app. You’ll want libraries for routing, enforcing unidirectional flows, web API calls, testing, dependency management, and so on. The number of decisions is can be overwhelming.
+
+  Angular offers more opinions out of the box, which helps you get started more quickly without feeling intimidated by decisions. This enforced consistency also helps new hires feel at home more quickly and makes switching developers between teams more practical.
+  I admire how the Angular core team has embraced TypeScript, which leads to the next advantage…
+  &lt;/p&gt;
+
+  &lt;h3&gt;TypeScript&lt;/h3&gt;
+  &lt;p&gt;
+  This ties into the the section above on consistency. Angular 2 has taken a hard stance on which flavor of JavaScript to use. React examples are inconsistent and are presented in ES5 and ES6 and currently offers three different ways to declare components. This create mayhem for n00bs like myself. Angular also embraces decorators instead of extends.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+  While Angular 2 does not require TypeScript, the Angular core team uses it as default in documentation. That means examples and projects and documentations are all consistent.  
+  &lt;/p&gt;
+
+  &lt;h2&gt;Reduce Turnover&lt;/h2&gt;
+  &lt;p&gt;
+  The Angular 2 of today has been carefully an methodically developed and reinvention of a mature, comprehensive framework. In React, it’s your responsibility to sift through a bunch of disparate, fast-moving, open-source libraries into a comprehensive whole that plays well together. It’s both time-consuming and frustrating.
+  &lt;/p&gt;
+
+  &lt;h2&gt;ReactJS&lt;/h2&gt;
+  &lt;p&gt;
+  Time to shine React.
+  &lt;/p&gt;
+
+  &lt;h3&gt;JSX&lt;/h3&gt;
+  &lt;p&gt;
+  JSX is an HTML-like syntax that compiles down to JavaScript. Markup and code are composed in the same file. This means code completion gives you a hand as you type references to your component’s functions and variables. In contrast, Angular’s string-based templates come with the usual downsides: No code coloring in many editors, limited code completion support, and run-time failures. You’d normally expect poor error messaging as well, but the Angular team created their own HTML parser to fix that. (Bravo!)
+
+  &lt;/p&gt;
+
+
+  &lt;!-- IMAGE OF REACT HERE --&gt;
+  &lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/blog/img/react-bg.png&quot; alt=&quot;React JS Image&quot; /&gt;
+  &lt;/a&gt;
+  &lt;span class=&quot;caption text-muted&quot;&gt;React is a framework maintained by Facebook &lt;/span&gt;
+
+
+  &lt;p&gt;
+  If you don’t like Angular string-based templates, you can move the templates to a separate file. Composing components in a single compile-time checked file is one of the big reasons JSX is so special.
+  &lt;/p&gt;
+
+  &lt;h3&gt;Move Fast &amp;amp; Break Stuff&lt;/h3&gt;
+  &lt;p&gt;
+  When you make a typo in React’s JSX, it won’t compile. This means you know immediately exactly which line has an error. React tells you immediately when you forget to close a tag or reference a property that doesn’t exist. In fact, the JSX compiler specifies the line number where the typo occurred. This behavior speeds development.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+  In contrast, when you mistype a variable reference in Angular 2, nothing happens at all. Angular 2 fails quietly at run time instead of compile-time. It fails slowly. I load the app and wonder why my data is not displaying. Not fun.
+  &lt;/p&gt;
+
+  &lt;h3&gt;Optimized for JavaScript&lt;/h3&gt;
+  &lt;p&gt;
+  This is the fundamental difference between React and Angular. Unfortunately, Angular 2 remains HTML-centric rather than JavaScript-centric.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+  Angular’s HTML-centric design remains its greatest weakness.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+  JavaScript is far more powerful than HTML. Thus, it’s more logical to enhance JavaScript to support markup than to enhance HTML to support logic. HTML and JavaScript need to be glued together somehow, and React’s JavaScript-centric approach is fundamentally superior to Angular&#39;s HTML-centric approach.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+  Angular 2 continues Angular 1’s approach of trying to make HTML more powerful. So you have to utilize Angular 2&#39;s unique syntax for simple tasks like looping and conditionals. For example, Angular 2 offers both one and two way binding via two syntaxes that are unfortunately quite different:
+  &lt;/p&gt;
+
+
+  &lt;h2&gt;Tech Specs&lt;/h2&gt;
+  &lt;p&gt;
+  Alright, let&#39;s get down to the nitty-gritty. The Tech Specs.
+  &lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Angular 2: 566k (766k with RxJS)&lt;/li&gt;
+    &lt;li&gt;Ember: 435k&lt;/li&gt;
+    &lt;li&gt;Angular 1: 143k&lt;/li&gt;
+    &lt;li&gt;React + Redux: 139k&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;h2&gt;IRL&lt;/h2&gt;
+  &lt;p&gt;
+    Several popular websites are coded in Angular and React. Below is a breakdown of each.
+
+    &lt;ul&gt;
+      &lt;li&gt;List of &lt;a href=&quot;https://github.com/facebook/react/wiki/Sites-Using-React&quot;&gt;React sites&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;List of Angular sites &lt;a href=&quot;https://www.madewithangular.com&quot;&gt;Angular Sites&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/p&gt;
+
+
+
+  &lt;h2&gt;Summary&lt;/h2&gt;
+  &lt;p&gt;
+  Angular 2 is a huge improvement over version 1. The new component model is simpler to grasp than v1’s directives, it supports isomorphic/universal rendering, and it uses a virtual DOM offering 3–10x improvements in performance. These changes make Angular 2 very competitive with React. There’s no denying that its full-featured, opinionated nature offers some clear benefits by reducing “JavaScript fatigue”.
+  &lt;/p&gt;
+  &lt;p&gt;
+  Angular 2’s size and syntax is considerably bigger than React. Angular’s commitment to HTML-centric design makes it complex compared to React’s simpler JavaScript-centric model. In React, you don’t learn framework-specific HTML shims like ngWhatever.
+  &lt;/p&gt;
+&lt;/angularComponent&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:</summary></entry><entry><title>Data Alchemy</title><link href="https://mapineda.github.io/blog/2016/08/08/data-alchemy/" rel="alternate" type="text/html" title="Data Alchemy" /><published>2016-08-08T07:05:00-05:00</published><updated>2016-08-08T07:05:00-05:00</updated><id>https://mapineda.github.io/blog/2016/08/08/data-alchemy</id><content type="html" xml:base="https://mapineda.github.io/blog/2016/08/08/data-alchemy/">&lt;p&gt;Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.&lt;/p&gt;
+
+&lt;p&gt;Data Science industry paragraph. Major innovations (e.g., Hadoop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.&lt;/p&gt;
 
 &lt;p&gt;To begin, we define a Data Product as a product that facilitates an end goal through the use of data. The fundamental idea in Data Mining is that you shouldn&#39;t solve the whole problem at once. Solve a simple piece that shows you whether there is interest, then build the MVP. Before you begin you must answer some questions:&lt;/p&gt;
 &lt;ol&gt;
