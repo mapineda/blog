@@ -9,6 +9,14 @@ Includes blog, portfolio & about page.
 * Bootstrap
 * Github Pages
 
+## Getting Started:
+
+```
+jekyll build
+
+jekyll serve
+```
+
 
 #Contact:
 
