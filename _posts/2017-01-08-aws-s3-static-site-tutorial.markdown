@@ -4,7 +4,7 @@ title: "How To Host Static Site on AWS S3 - Tutorial"
 subtitle: ''
 date: 2017-01-08 09:07:00
 author: 'Marco Pineda'
-header-img: 'img/hosting-s3-bg.jpg'
+header-img: 'img/host-s3-bg.jpg'
 ---
 
 <p>
@@ -99,11 +99,11 @@ Before we get into the tutorial, let's review why hosting on S3 is so wonderful.
 
   <h3>Step 6</h3>
   <p>
-  Set permissions to make your site public so Everyone can Read. Hit NEXT and upload the two files.
+   Go into your bucket, go to Permissions, Click on Everyone then tick the box that says Read to make your site public so Everyone can Read and see your site.
   </p>
 
   <a href="#">
-      <img src="{{ site.baseurl }}/img/permissions.png" alt="AWS S3 Image">
+      <img src="{{ site.baseurl }}/img/permissions.png" alt="Permissions AWS S3 Image">
   </a>
 
   <h3>Step 7</h3>
