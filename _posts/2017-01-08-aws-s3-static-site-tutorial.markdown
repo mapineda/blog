@@ -44,7 +44,7 @@ Before we get into the tutorial, let's review why hosting on S3 is so wonderful.
 
   <h3>Le Grand Tutorial</h3>  
   <p>
-  Alright, you've made it this far. Great! Let's get to it. This tutorial assumes you've already made a free AWS account. Go ahead and log in.  
+  Alright, you've made it this far. Great! Let's get to it. This tutorial assumes you've already made a free AWS account. Go ahead and <a href='https://aws.amazon.com/console/' target='blank'>log in</a>.  
   </p>
 
 
