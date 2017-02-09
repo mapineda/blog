@@ -8,7 +8,7 @@ header-img: 'img/host-s3-bg.jpg'
 ---
 
 <p>
-AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon's suit of services. I've studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to <a href='https://twitter.com/samkroon'>Sam Kroonenburg</a> and <a href='https://t.co/VbhlVUys1z'>acloud.guru</a> for an awesome course! ) and today I've learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
+AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon's suite of services. I've studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to <a href='https://twitter.com/samkroon'>Sam Kroonenburg</a> and <a href='https://t.co/VbhlVUys1z'>acloud.guru</a> for an awesome course! ) and today I've learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
 </p>
 
 <p>
