@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Host Static Site on AWS S3 - Tutorial"
+title: "How To Host Static Site using AWS S3 - Tutorial"
 subtitle: ''
 date: 2017-01-08 09:07:00
 author: 'Marco Pineda'
