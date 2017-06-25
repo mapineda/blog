@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://owlery.club/feed.xml" rel="self" type="application/atom+xml" /><link href="http://owlery.club/" rel="alternate" type="text/html" /><updated>2017-06-24T23:57:53-05:00</updated><id>http://owlery.club/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://owlery.club/feed.xml" rel="self" type="application/atom+xml" /><link href="http://owlery.club/" rel="alternate" type="text/html" /><updated>2017-06-25T00:01:47-05:00</updated><id>http://owlery.club/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;p&gt;
   This post covers the basics of Computer Vision and Open CV.
   &lt;p&gt;
 
@@ -59,17 +59,6 @@
 
         &lt;h3&gt;How Humans See&lt;/h3&gt;
         &lt;p&gt;Both our eyes and cameras use an adaptive lens to control many aspects of the image formation such as:&lt;/p&gt;
-
-        &lt;p&gt;Aperature Size&lt;/p&gt;
-          &lt;ul&gt;
-            &lt;li&gt;Controls the amount of light allowed through (f-stops in cameras)&lt;/li&gt;
-            &lt;li&gt;Depth of field(Bokeh)&lt;/li&gt;
-          &lt;/ul&gt;
-
-        &lt;p&gt;Length Width&lt;/p&gt;
-          &lt;ul&gt;
-            &lt;li&gt;Adjust focus distance (near or far)&lt;/li&gt;
-          &lt;/ul&gt;
 
         &lt;h3&gt;How Computers See - OpenCV&lt;/h3&gt;
         &lt;p&gt;OpenCV uses RGB (Red, Green, Blue) color space by default.&lt;/p&gt;
