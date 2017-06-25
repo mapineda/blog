@@ -1,4 +1,292 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://mapineda.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mapineda.github.io/blog/" rel="alternate" type="text/html" /><updated>2016-08-29T23:20:48-05:00</updated><id>https://mapineda.github.io/blog/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Angular 2 vs React</title><link href="https://mapineda.github.io/blog/2016/08/14/angular-2-vs-react/" rel="alternate" type="text/html" title="Angular 2 vs React" /><published>2016-08-14T20:27:00-05:00</published><updated>2016-08-14T20:27:00-05:00</updated><id>https://mapineda.github.io/blog/2016/08/14/angular-2-vs-react</id><content type="html" xml:base="https://mapineda.github.io/blog/2016/08/14/angular-2-vs-react/">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://owlery.club/feed.xml" rel="self" type="application/atom+xml" /><link href="http://owlery.club/" rel="alternate" type="text/html" /><updated>2017-06-25T00:01:47-05:00</updated><id>http://owlery.club/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;p&gt;
+  This post covers the basics of Computer Vision and Open CV.
+  &lt;p&gt;
+
+  &lt;h2&gt;Topics Covered:&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;What are Images?&lt;/li&gt;
+      &lt;li&gt;How Images Are Formed.&lt;/li&gt;
+      &lt;li&gt;Storing Images on Computers&lt;/li&gt;
+      &lt;li&gt;Getting Started with OpenCV: reading, writing, displaying images&lt;/li&gt;
+      &lt;li&gt;Grayscaling&lt;/li&gt;
+      &lt;li&gt;Color Spaces&lt;/li&gt;
+      &lt;li&gt;Histograms&lt;/li&gt;
+      &lt;li&gt;Drawing Images&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h1&gt;Getting Started:&lt;/h1&gt;
+    &lt;hr /&gt;
+
+      &lt;h2&gt;What Are Images?&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;2-Dimensional representations of the visible light spectrum.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;Examples:&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;photographs&lt;/li&gt;
+            &lt;li&gt;picture on laptop screen&lt;/li&gt;
+          &lt;/ul&gt;
+
+      &lt;h3&gt;Vocabulary:&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;DPI - Dots Per Image&lt;/li&gt;
+        &lt;li&gt;Visible Light Spectrum - wavelengths of light human eyes can detect&lt;/li&gt;
+      &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+      &lt;h2&gt;How are Images Formed??&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Images are formed when light hits an object, relects off the object onto a film, sensor or retina.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;To optimize images, we use a small opening called an aperature to block off excess light and focus the image; reducing blur. We can also use lenses to control the image formation.&lt;/p&gt;
+
+        &lt;h3&gt;Lenses&lt;/h3&gt;
+        &lt;p&gt;Both our eyes and cameras use an adaptive lens to control many aspects of the image formation such as:&lt;/p&gt;
+
+        &lt;p&gt;Aperature Size&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Controls the amount of light allowed through (f-stops in cameras)&lt;/li&gt;
+            &lt;li&gt;Depth of field(Bokeh)&lt;/li&gt;
+          &lt;/ul&gt;
+
+        &lt;p&gt;Length Width&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Adjust focus distance (near or far)&lt;/li&gt;
+          &lt;/ul&gt;
+
+        &lt;h3&gt;How Humans See&lt;/h3&gt;
+        &lt;p&gt;Both our eyes and cameras use an adaptive lens to control many aspects of the image formation such as:&lt;/p&gt;
+
+        &lt;h3&gt;How Computers See - OpenCV&lt;/h3&gt;
+        &lt;p&gt;OpenCV uses RGB (Red, Green, Blue) color space by default.&lt;/p&gt;
+
+        &lt;p&gt;Each pixel(x,y) in an image has 3 values ranging in 0 - 255(8-bit)&lt;/p&gt;
+
+        &lt;p&gt;Those values are:&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Red&lt;/li&gt;
+          &lt;li&gt;Green&lt;/li&gt;
+          &lt;li&gt;Blue&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;Mixing different color intensities of each color gives us the full color spectrum, example Yellow:&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Red - 255&lt;/li&gt;
+          &lt;li&gt;Green - 255 &lt;/li&gt;
+          &lt;li&gt;Blue - 0 &lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;p&gt;Length Width&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Adjust focus distance (near or far)&lt;/li&gt;
+          &lt;/ul&gt;
+
+&lt;hr /&gt;
+    &lt;h2&gt;How A Computer Stores Images&lt;/h2&gt;
+
+    &lt;p&gt;Images are stored in multi-dimensional arrays&lt;/p&gt;
+
+    &lt;p&gt;Think of an array as a table.&lt;/p&gt;
+    &lt;label&gt;1-Dimensional Table&lt;/label&gt;
+
+    &lt;table&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/table&gt;
+
+
+    &lt;h3&gt;Black, White or Grayscale&lt;/h3&gt;
+
+    &lt;p&gt;Black and white image, images are saved in a 2-Dimensional array.&lt;/p&gt;
+
+    &lt;p&gt;Two types of B&amp;amp;W images&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Grayscale - ranges in shades of gray&lt;/li&gt;
+      &lt;li&gt;Binary - pixels are either black or white&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;hr /&gt;
+
+  &lt;h2&gt;Getting Started With OpenCV&lt;/h2&gt;
+
+    &lt;h3&gt;What is OpenCV?&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;OpenCV = Open Computer Vision&lt;/li&gt;
+        &lt;li&gt;Launched in 1999 by Intel&lt;/li&gt;
+        &lt;li&gt;Written in C++&lt;/li&gt;
+        &lt;li&gt;1st major release in 2006, second in 2009 and third in 2015&lt;/li&gt;
+        &lt;li&gt;Latest stable version is OpeCV 2.4.13&lt;/li&gt;
+      &lt;/ul&gt;
+
+    &lt;h3&gt;Get Started - Reading, Writing &amp;amp; Displaying Images:&lt;/h3&gt;
+    &lt;p&gt;See tutorial on reading, writing and displaying images using OpenCV&lt;/p&gt;
+&lt;hr /&gt;
+
+  &lt;h2&gt;Grayscaling&lt;/h2&gt;
+
+    &lt;h3&gt;Why Grayscaling?&lt;/h3&gt;
+    &lt;p&gt;In OpenCV, many functions grayscale images before processing. This is done to simplify the image to reduce noise and increase processing time as there is less information in the image.&lt;/p&gt;
+
+    &lt;h3&gt;What is Grayscaling?&lt;/h3&gt;
+    &lt;p&gt;Converting an image from full color to shades of gray (black &amp;amp; white).&lt;/p&gt;
+
+    &lt;h3&gt;Getting Started: Grayscaling Tutorial &lt;/h3&gt;
+    &lt;p&gt;See tutorial on Grayscaling using OpenCV&lt;/p&gt;
+    &lt;p&gt;In the tutorial you will learn:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How to convert color image to grayscale&lt;/li&gt;
+    &lt;/ul&gt;
+
+&lt;pre&gt;
+#import packages
+import cv2
+import numpy as np
+
+#read image using cv2.imread()
+input = cv2.imread(&#39;./images/input.jpg&#39;, 0)
+
+#output to grayscale using cv2.imshow()
+cv2.imshow(&#39;Grayscale&#39;, input)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+&lt;/pre&gt;
+
+&lt;hr /&gt;
+  &lt;h2&gt;Color Spaces&lt;/h2&gt;
+
+    &lt;h3&gt;What are Color Spaces?&lt;/h3&gt;
+    &lt;p&gt;Color spaces are a way to represent color.&lt;/p&gt;
+
+    &lt;p&gt;The most common terms to represent color:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;RGB - Red, Gree, Blue&lt;/li&gt;
+      &lt;li&gt;HSV - Hue, Saturation, Value&lt;/li&gt;
+      &lt;li&gt;CMYK - Cyan, Magenta, Yellow, Black(K)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3&gt;Getting Started: Color Spaces Tutorial &lt;/h3&gt;
+    &lt;p&gt;See tutorial on Color Spaces using OpenCV&lt;/p&gt;
+
+&lt;hr /&gt;
+
+  &lt;h2&gt;Histograms&lt;/h2&gt;
+
+    &lt;h3&gt;Why Histograms?&lt;/h3&gt;
+    &lt;p&gt;Great way to visualize individual color components.&lt;/p&gt;
+
+    &lt;h3&gt;Getting Started: Histogram Tutorial &lt;/h3&gt;
+    &lt;p&gt;See tutorial on Histograms using OpenCV&lt;/p&gt;
+
+&lt;hr /&gt;
+  &lt;h2&gt;Drawing Images&lt;/h2&gt;
+
+    &lt;h3&gt;Getting Started: Drawing Tutorial &lt;/h3&gt;
+    &lt;p&gt;See tutorial on Drawing Images using OpenCV&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;/p&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>This post covers the basics of Computer Vision and Open CV.</summary></entry><entry><title>How To Host Static Site using AWS S3 - Tutorial</title><link href="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/" rel="alternate" type="text/html" title="How To Host Static Site using AWS S3 - Tutorial" /><published>2017-01-08T03:07:00-06:00</published><updated>2017-01-08T03:07:00-06:00</updated><id>http://owlery.club/2017/01/08/aws-s3-static-site-tutorial</id><content type="html" xml:base="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/">&lt;p&gt;
+AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon&#39;s suite of services. I&#39;ve studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to &lt;a href=&quot;https://twitter.com/samkroon&quot;&gt;Sam Kroonenburg&lt;/a&gt; and &lt;a href=&quot;https://t.co/VbhlVUys1z&quot;&gt;acloud.guru&lt;/a&gt; for an awesome course! ) and today I&#39;ve learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
+&lt;/p&gt;
+
+&lt;p&gt;
+This tutorial assumes you have an AWS account (if not, create a free one, super easy) and that you know basic HTML.
+Before we get into the tutorial, let&#39;s review why hosting on S3 is so wonderful. Skip this if you want to get to the tutorial.
+&lt;/p&gt;
+
+&lt;h2&gt;Why S3?&lt;/h2&gt;
+&lt;p&gt;Several benefits to using S3 to host static websites. For example if you were hosting some big event and needed a landing page, S3 would be the place to do it. Below is a list of pros and cons to using S3.&lt;/p&gt;
+
+&lt;h4&gt;Pros&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Simple&lt;/li&gt;
+    &lt;li&gt;Scales Automatically&lt;/li&gt;
+    &lt;li&gt;Serverless&lt;/li&gt;
+    &lt;li&gt;Don&#39;t have to worry about load balancing&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h4&gt;Cons&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Static content only&lt;/li&gt;
+    &lt;li&gt;Can&#39;t do something server-side&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;p&gt;Let me reiterate that S3 is only for static content. This means no Dot Net, PHP etc. S3 is ideal for landing pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;!-- IMAGE OF S3 HERE --&gt;
+  &lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/s3-bg.png&quot; alt=&quot;AWS S3 Image&quot; /&gt;
+  &lt;/a&gt;
+  &lt;span class=&quot;caption text-muted&quot;&gt;S3. S3 is property of Amazon.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3&gt;Le Grand Tutorial&lt;/h3&gt;
+&lt;p&gt;
+  Alright, you&#39;ve made it this far. Great! Let&#39;s get to it. This tutorial assumes you&#39;ve already made a free AWS account. Go ahead and &lt;a href=&quot;https://aws.amazon.com/console/&quot; target=&quot;blank&quot;&gt;log in&lt;/a&gt;.  
+  &lt;/p&gt;
+
+&lt;h3&gt;Step 1&lt;/h3&gt;
+&lt;p&gt;
+  Once you&#39;re logged in to AWS Management Console, navigate to Services and Click on S3.
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/step1.png&quot; alt=&quot;AWS S3 Image&quot; /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 2&lt;/h3&gt;
+&lt;p&gt;
+   Once in S3, go ahead and create a new bucket. Name the bucket, leave everything as default and click NEXT.
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/create-bucket.png&quot; alt=&quot;AWS S3 Bucket Image&quot; /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 3&lt;/h3&gt;
+&lt;p&gt;
+  Click the bucket, go into properties and select &quot;STATIC WEBSITE HOSTING&quot;, then choose &quot;Use this bucket to host a website&quot;. Make the landing page &quot;index.html&quot; and the error page &quot;error.html&quot;
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/static-web-site-hosting.png&quot; alt=&quot;AWS Static Site Hosting Image&quot; /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 4&lt;/h3&gt;
+&lt;p&gt;
+  Create an index.html page and error.html page in your favorite code editor. I&#39;m using Atom.
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/index-example.png&quot; alt=&quot;Atom Code Editor&quot; /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 5&lt;/h3&gt;
+&lt;p&gt;
+  Go back to S3 Bucket and go ahead and upload the files. Go ahead and hit next.
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/upload.png&quot; alt=&quot;Upload AWS S3 Image&quot; /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 6&lt;/h3&gt;
+&lt;p&gt;
+   Go into your bucket, go to Permissions, Click on Everyone then tick the box that says Read to make your site public so Everyone can Read and see your site.
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+      &lt;img src=&quot;/img/permissions.png&quot; alt=&quot;Permissions AWS S3 Image&quot; /&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Step 7&lt;/h3&gt;
+&lt;p&gt;
+  Go into properties, go to static site hosting and click on the AWS endpoint to take you to your newly hosted static site!
+  &lt;/p&gt;
+
+&lt;p&gt;Hope you enjoyed this tutorial, if you have any questions, feel free to tweet at me: &lt;a href=&quot;https://twitter.com/marcoapineda13&quot;&gt;@marcoapineda13 &lt;/a&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon&#39;s suite of services. I&#39;ve studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to Sam Kroonenburg and acloud.guru for an awesome course! ) and today I&#39;ve learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.</summary></entry><entry><title>Angular 2 vs React</title><link href="http://owlery.club/2016/08/14/angular-2-vs-react/" rel="alternate" type="text/html" title="Angular 2 vs React" /><published>2016-08-14T20:27:00-05:00</published><updated>2016-08-14T20:27:00-05:00</updated><id>http://owlery.club/2016/08/14/angular-2-vs-react</id><content type="html" xml:base="http://owlery.club/2016/08/14/angular-2-vs-react/">&lt;p&gt;
 Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:
 &lt;/p&gt;
 
@@ -25,7 +313,7 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 
 &lt;p&gt;&lt;!-- IMAGE OF ANGULAR HERE --&gt;
   &lt;a href=&quot;#&quot;&gt;
-      &lt;img src=&quot;/blog/img/angular-bg.png&quot; alt=&quot;Angular Image&quot; /&gt;
+      &lt;img src=&quot;/img/angular-bg.png&quot; alt=&quot;Angular Image&quot; /&gt;
   &lt;/a&gt;
   &lt;span class=&quot;caption text-muted&quot;&gt;Angular Logo. Angular is maintained by Google.&lt;/span&gt;&lt;/p&gt;
 
@@ -71,7 +359,7 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 
   &lt;!-- IMAGE OF REACT HERE --&gt;
   &lt;a href=&quot;#&quot;&gt;
-      &lt;img src=&quot;/blog/img/react-bg.png&quot; alt=&quot;React JS Image&quot; /&gt;
+      &lt;img src=&quot;/img/react-bg.png&quot; alt=&quot;React JS Image&quot; /&gt;
   &lt;/a&gt;
   &lt;span class=&quot;caption text-muted&quot;&gt;React is a framework maintained by Facebook &lt;/span&gt;
 
@@ -139,7 +427,7 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
   &lt;p&gt;
   Angular 2’s size and syntax is considerably bigger than React. Angular’s commitment to HTML-centric design makes it complex compared to React’s simpler JavaScript-centric model. In React, you don’t learn framework-specific HTML shims like ngWhatever.
   &lt;/p&gt;
-&lt;/angularComponent&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:</summary></entry><entry><title>Data Alchemy</title><link href="https://mapineda.github.io/blog/2016/08/08/data-alchemy/" rel="alternate" type="text/html" title="Data Alchemy" /><published>2016-08-08T07:05:00-05:00</published><updated>2016-08-08T07:05:00-05:00</updated><id>https://mapineda.github.io/blog/2016/08/08/data-alchemy</id><content type="html" xml:base="https://mapineda.github.io/blog/2016/08/08/data-alchemy/">&lt;p&gt;Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.&lt;/p&gt;
+&lt;/angularComponent&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:</summary></entry><entry><title>Data Alchemy</title><link href="http://owlery.club/2016/08/08/data-alchemy/" rel="alternate" type="text/html" title="Data Alchemy" /><published>2016-08-08T07:05:00-05:00</published><updated>2016-08-08T07:05:00-05:00</updated><id>http://owlery.club/2016/08/08/data-alchemy</id><content type="html" xml:base="http://owlery.club/2016/08/08/data-alchemy/">&lt;p&gt;Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.&lt;/p&gt;
 
 &lt;p&gt;Data Science industry paragraph. Major innovations (e.g., Hadoop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.&lt;/p&gt;
 
@@ -176,7 +464,7 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 &lt;p&gt;When you go into a store to buy something, you might look at prices and or reviews. Most likely you&#39;ll look at similar products near by. By adding a collaborative filter, Amazon built this experience into their web page. They crafted their digital product based off every day experiences centered around buying a product in the real world.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/blog/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
 &lt;/a&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
 
@@ -188,7 +476,7 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 
 &lt;p&gt;How do you give data back to the user? Some examples are LinkedIn&#39;s product called &quot;Who&#39;s Viewed Your Profile.&quot; This product lists the people who&#39;ve viewed your profile. The data is timely and actionable and most importantly &lt;i&gt;addictive&lt;/i&gt;. Mint studies your credit card transactions to help you understand expenses and income and compare them to others in your demographic.&lt;/p&gt;
 
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.</summary></entry><entry><title>Binary 101</title><link href="https://mapineda.github.io/blog/2016/08/01/binary-101/" rel="alternate" type="text/html" title="Binary 101" /><published>2016-08-01T07:06:00-05:00</published><updated>2016-08-01T07:06:00-05:00</updated><id>https://mapineda.github.io/blog/2016/08/01/binary-101</id><content type="html" xml:base="https://mapineda.github.io/blog/2016/08/01/binary-101/">&lt;p&gt;1703 Gottfried Wilhelm Leibniz invents the Binary System.&lt;/p&gt;
+&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.</summary></entry><entry><title>Binary 101</title><link href="http://owlery.club/2016/08/01/binary-101/" rel="alternate" type="text/html" title="Binary 101" /><published>2016-08-01T07:06:00-05:00</published><updated>2016-08-01T07:06:00-05:00</updated><id>http://owlery.club/2016/08/01/binary-101</id><content type="html" xml:base="http://owlery.club/2016/08/01/binary-101/">&lt;p&gt;1703 Gottfried Wilhelm Leibniz invents the Binary System.&lt;/p&gt;
 
 &lt;p&gt;Leibniz (1646 -1716 ) was a German philosopher, polymath, and mathematician who wrote primarily in Latin and French. The modern binary number system was fully documented by Gottfried Leibniz in the 17th century in his article Explication de l&#39;Arithmétique Binaire. Leibniz&#39;s system used 0 and 1, like the modern binary numeral system. Leibniz was aware of the I Ching and noted with fascination how its hexagrams correspond to the binary numbers from 0 to 111111.&lt;/p&gt;
 
