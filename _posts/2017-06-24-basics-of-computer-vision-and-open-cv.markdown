@@ -132,24 +132,87 @@ header-img: ''
     </ul>
 <hr>
 
-<h2>Getting Started With OpenCV</h2>
+  <h2>Getting Started With OpenCV</h2>
 
-<h3>What is OpenCV?</h3>
-  <ul>
-    <li>OpenCV = Open Computer Vision</li>
-    <li>Launched in 1999 by Intel</li>
-    <li>Written in C++</li>
-    <li>1st major release in 2006, second in 2009 and third in 2015</li>
-    <li>Latest stable version is OpeCV 2.4.13</li>
-  </ul>
+    <h3>What is OpenCV?</h3>
+      <ul>
+        <li>OpenCV = Open Computer Vision</li>
+        <li>Launched in 1999 by Intel</li>
+        <li>Written in C++</li>
+        <li>1st major release in 2006, second in 2009 and third in 2015</li>
+        <li>Latest stable version is OpeCV 2.4.13</li>
+      </ul>
 
-<h3>Get Started - Reading, Writing & Displaying Images:</h3>
-<ul>
-  <li>DPI - Dots Per Image</li>
-  <li>Visible Light Spectrum - wavelengths of light human eyes can detect</li>
-</ul>
-</div>
+    <h3>Get Started - Reading, Writing & Displaying Images:</h3>
+    <p>See tutorial on reading, writing and displaying images using OpenCV</p>
 <hr>
+
+  <h2>Grayscaling</h2>
+
+    <h3>Why Grayscaling?</h3>
+    <p>In OpenCV, many functions grayscale images before processing. This is done to simplify the image to reduce noise and increase processing time as there is less information in the image.</p>
+
+    <h3>What is Grayscaling?</h3>
+    <p>Converting an image from full color to shades of gray (black & white).</p>
+
+    <h3>Getting Started: Grayscaling Tutorial </h3>
+    <p>See tutorial on Grayscaling using OpenCV</p>
+    <p>In the tutorial you will learn:</p>
+    <ul>
+      <li>How to convert color image to grayscale</li>
+    </ul>
+
+<pre>
+#import packages
+import cv2
+import numpy as np
+
+#read image using cv2.imread()
+input = cv2.imread('./images/input.jpg', 0)
+
+#output to grayscale using cv2.imshow()
+cv2.imshow('Grayscale', input)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+</pre>
+
+<hr>
+  <h2>Color Spaces</h2>
+
+    <h3>What are Color Spaces?</h3>
+    <p>Color spaces are a way to represent color.</p>
+
+    <p>The most common terms to represent color:</p>
+    <ul>
+      <li>RGB - Red, Gree, Blue</li>
+      <li>HSV - Hue, Saturation, Value</li>
+      <li>CMYK - Cyan, Magenta, Yellow, Black(K)</li>
+    </ul>
+
+    <h3>Getting Started: Color Spaces Tutorial </h3>
+    <p>See tutorial on Color Spaces using OpenCV</p>
+
+<hr>
+
+  <h2>Histograms</h2>
+
+    <h3>Why Histograms?</h3>
+    <p>Great way to visualize individual color components.</p>
+
+    <h3>Getting Started: Histogram Tutorial </h3>
+    <p>See tutorial on Histograms using OpenCV</p>
+
+<hr>
+  <h2>Drawing Images</h2>
+
+    <h3>Getting Started: Drawing Tutorial </h3>
+    <p>See tutorial on Drawing Images using OpenCV</p>
+
+<hr>
+
+
+</div>
+
 
   </section>
 </container>
