@@ -4,9 +4,9 @@ title: "Basics of Computer Vision & OpenCV"
 subtitle: ''
 date: 2017-06-24 08:07:00
 author: 'Marco Pineda'
-header-img: ''
+header-img: 'img/computer-vision.jpg'
 ---
-<container>
+
   <p>
   This post covers the basics of Computer Vision and Open CV.
   <p>
@@ -23,10 +23,9 @@ header-img: ''
       <li>Drawing Images</li>
     </ul>
 
-<section>
     <h1>Getting Started:</h1>
     <hr>
-    <div>
+
       <h2>What Are Images?</h2>
         <ul>
           <li>2-Dimensional representations of the visible light spectrum.</li>
@@ -43,9 +42,9 @@ header-img: ''
         <li>DPI - Dots Per Image</li>
         <li>Visible Light Spectrum - wavelengths of light human eyes can detect</li>
       </ul>
-    </div>
+
 <hr>
-    <div>
+
       <h2>How are Images Formed??</h2>
         <ul>
           <li>Images are formed when light hits an object, relects off the object onto a film, sensor or retina.</li>
@@ -69,17 +68,6 @@ header-img: ''
 
         <h3>How Humans See</h3>
         <p>Both our eyes and cameras use an adaptive lens to control many aspects of the image formation such as:</p>
-
-        <p>Aperature Size</p>
-          <ul>
-            <li>Controls the amount of light allowed through (f-stops in cameras)</li>
-            <li>Depth of field(Bokeh)</li>
-          </ul>
-
-        <p>Length Width</p>
-          <ul>
-            <li>Adjust focus distance (near or far)</li>
-          </ul>
 
         <h3>How Computers See - OpenCV</h3>
         <p>OpenCV uses RGB (Red, Green, Blue) color space by default.</p>
@@ -209,10 +197,3 @@ cv2.destroyAllWindows()
     <p>See tutorial on Drawing Images using OpenCV</p>
 
 <hr>
-
-
-</div>
-
-
-  </section>
-</container>
