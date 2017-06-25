@@ -69,17 +69,6 @@ header-img: 'img/computer-vision.jpg'
         <h3>How Humans See</h3>
         <p>Both our eyes and cameras use an adaptive lens to control many aspects of the image formation such as:</p>
 
-        <p>Aperature Size</p>
-          <ul>
-            <li>Controls the amount of light allowed through (f-stops in cameras)</li>
-            <li>Depth of field(Bokeh)</li>
-          </ul>
-
-        <p>Length Width</p>
-          <ul>
-            <li>Adjust focus distance (near or far)</li>
-          </ul>
-
         <h3>How Computers See - OpenCV</h3>
         <p>OpenCV uses RGB (Red, Green, Blue) color space by default.</p>
 
