@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://owlery.club/feed.xml" rel="self" type="application/atom+xml" /><link href="http://owlery.club/" rel="alternate" type="text/html" /><updated>2017-06-24T23:54:04-05:00</updated><id>http://owlery.club/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;container&gt;
-  &lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://owlery.club/feed.xml" rel="self" type="application/atom+xml" /><link href="http://owlery.club/" rel="alternate" type="text/html" /><updated>2017-06-24T23:57:53-05:00</updated><id>http://owlery.club/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;p&gt;
   This post covers the basics of Computer Vision and Open CV.
   &lt;p&gt;
 
@@ -15,10 +14,9 @@
       &lt;li&gt;Drawing Images&lt;/li&gt;
     &lt;/ul&gt;
 
-&lt;section&gt;
     &lt;h1&gt;Getting Started:&lt;/h1&gt;
     &lt;hr /&gt;
-    &lt;div&gt;
+
       &lt;h2&gt;What Are Images?&lt;/h2&gt;
         &lt;ul&gt;
           &lt;li&gt;2-Dimensional representations of the visible light spectrum.&lt;/li&gt;
@@ -35,9 +33,9 @@
         &lt;li&gt;DPI - Dots Per Image&lt;/li&gt;
         &lt;li&gt;Visible Light Spectrum - wavelengths of light human eyes can detect&lt;/li&gt;
       &lt;/ul&gt;
-    &lt;/div&gt;
+
 &lt;hr /&gt;
-    &lt;div&gt;
+
       &lt;h2&gt;How are Images Formed??&lt;/h2&gt;
         &lt;ul&gt;
           &lt;li&gt;Images are formed when light hits an object, relects off the object onto a film, sensor or retina.&lt;/li&gt;
@@ -201,14 +199,7 @@ cv2.destroyAllWindows()
     &lt;p&gt;See tutorial on Drawing Images using OpenCV&lt;/p&gt;
 
 &lt;hr /&gt;
-
-
-&lt;/div&gt;
-
-
-  &lt;/section&gt;
-&amp;lt;/container&amp;gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/container&gt;</content><author><name>Marco Pineda</name></author><summary>This post covers the basics of Computer Vision and Open CV.</summary></entry><entry><title>How To Host Static Site using AWS S3 - Tutorial</title><link href="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/" rel="alternate" type="text/html" title="How To Host Static Site using AWS S3 - Tutorial" /><published>2017-01-08T03:07:00-06:00</published><updated>2017-01-08T03:07:00-06:00</updated><id>http://owlery.club/2017/01/08/aws-s3-static-site-tutorial</id><content type="html" xml:base="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/">&lt;p&gt;
+&lt;/p&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>This post covers the basics of Computer Vision and Open CV.</summary></entry><entry><title>How To Host Static Site using AWS S3 - Tutorial</title><link href="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/" rel="alternate" type="text/html" title="How To Host Static Site using AWS S3 - Tutorial" /><published>2017-01-08T03:07:00-06:00</published><updated>2017-01-08T03:07:00-06:00</updated><id>http://owlery.club/2017/01/08/aws-s3-static-site-tutorial</id><content type="html" xml:base="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/">&lt;p&gt;
 AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon&#39;s suite of services. I&#39;ve studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to &lt;a href=&quot;https://twitter.com/samkroon&quot;&gt;Sam Kroonenburg&lt;/a&gt; and &lt;a href=&quot;https://t.co/VbhlVUys1z&quot;&gt;acloud.guru&lt;/a&gt; for an awesome course! ) and today I&#39;ve learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
 &lt;/p&gt;
 
