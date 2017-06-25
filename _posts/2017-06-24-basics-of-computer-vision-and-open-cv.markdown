@@ -4,7 +4,7 @@ title: "Basics of Computer Vision & OpenCV"
 subtitle: ''
 date: 2017-06-24 08:07:00
 author: 'Marco Pineda'
-header-img: ''
+header-img: 'img/computer-vision.jpg'
 ---
 <container>
   <p>
