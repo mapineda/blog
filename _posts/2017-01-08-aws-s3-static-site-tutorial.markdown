@@ -8,7 +8,7 @@ header-img: 'img/host-s3-bg.jpg'
 ---
 
 <p>
-AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon's suit of services. I've studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to <a href='https://twitter.com/samkroon'>Sam Kroonenburg</a> and <a href='https://t.co/VbhlVUys1z'>acloud.guru</a> for an awesome course! ) and today I've learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
+AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon's suite of services. I've studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to <a href='https://twitter.com/samkroon'>Sam Kroonenburg</a> and <a href='https://t.co/VbhlVUys1z'>acloud.guru</a> for an awesome course! ) and today I've learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
 </p>
 
 <p>
@@ -21,18 +21,18 @@ Before we get into the tutorial, let's review why hosting on S3 is so wonderful.
   <p>Several benefits to using S3 to host static websites. For example if you were hosting some big event and needed a landing page, S3 would be the place to do it. Below is a list of pros and cons to using S3.</p>
 
   <h4>Pros</h4>
-  <ol>
+  <ul>
     <li>Simple</li>
     <li>Scales Automatically</li>
     <li>Serverless</li>
     <li>Don't have to worry about load balancing</li>
-  </ol>
+  </ul>
 
   <h4>Cons</h4>
-  <ol>
+  <ul>
     <li>Static content only</li>
     <li>Can't do something server-side</li>
-  </ol>
+  </ul>
 
   <p>Let me reiterate that S3 is only for static content. This means no Dot Net, PHP etc. S3 is ideal for landing pages.</p>
 
