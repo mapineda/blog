@@ -42,7 +42,6 @@ header-img: 'img/computer-vision.jpg'
         <li>DPI - Dots Per Image</li>
         <li>Visible Light Spectrum - wavelengths of light human eyes can detect</li>
       </ul>
-
 <hr>
 
       <h2>How are Images Formed??</h2>
@@ -68,7 +67,6 @@ header-img: 'img/computer-vision.jpg'
 
         <h3>How Humans See</h3>
         <p>Both our eyes and cameras use an adaptive lens to control many aspects of the image formation such as:</p>
-
         <h3>How Computers See - OpenCV</h3>
         <p>OpenCV uses RGB (Red, Green, Blue) color space by default.</p>
 
