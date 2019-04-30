@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://owlery.club/feed.xml" rel="self" type="application/atom+xml" /><link href="http://owlery.club/" rel="alternate" type="text/html" /><updated>2017-06-25T00:01:47-05:00</updated><id>http://owlery.club/</id><title>Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title>Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://owlery.club/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-29T21:05:44-05:00</updated><id>http://localhost:4000/</id><title type="html">Owlery Club</title><subtitle>In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding.</subtitle><entry><title type="html">Get Started As A UX Designer</title><link href="http://localhost:4000/2019/04/29/get-started-as-a-ux-designer/" rel="alternate" type="text/html" title="Get Started As A UX Designer" /><published>2019-04-29T13:31:00-05:00</published><updated>2019-04-29T13:31:00-05:00</updated><id>http://localhost:4000/2019/04/29/get-started-as-a-ux-designer</id><content type="html" xml:base="http://localhost:4000/2019/04/29/get-started-as-a-ux-designer/">&lt;p&gt;
+If you're thinking about getting into tech, UX Designer may be for you.
+Note: post inspired by this
+&lt;a href=&quot;https://cvcompiler.com/blog/do-designers-dream-of-electric-sheep-the-most-demanded-design-tech-skills/&quot;&gt;post&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+This is a brief overview over the tools, knowledge and resources to help you on
+ your way to becoming a UX Designer.
+&lt;/p&gt;
+
+&lt;h2&gt;Why UX Designer?&lt;/h2&gt;
+&lt;p&gt;Money&lt;/p&gt;
+&lt;p&gt;Fun&lt;/p&gt;
+
+&lt;h3&gt;TLDR&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/netoguimaraes/awesome-ux&quot;&gt;Awesome UX&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/micromata/awesome-javascript-learning&quot;&gt;Awesome JS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/awesome-css-group/awesome-css#readme&quot;&gt;Awesome CSS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/diegocard/awesome-html5#readme&quot;&gt;Awesome HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;Toolbox: Dev&lt;/h3&gt;
+&lt;p&gt;
+   A good UX designer can mock up a high-res design and then should be able
+   to confidently implement that code with html, css, and if need be, basic
+   javascript. Git is a tool that is helpful for version control. For now,
+   think of it as a place to store your code.
+   &lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Javascript &lt;/li&gt;
+    &lt;li&gt;HTML5 &lt;/li&gt;
+    &lt;li&gt;CSS3 &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;https://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Git &lt;span&gt;# this will make your resume stand out &lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;Toolbox: Design Software&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Sketch&lt;/li&gt;
+    &lt;li&gt;inVision&lt;/li&gt;
+    &lt;li&gt;Balsamiq&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;Toolbox: Design Methodologies&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://uxplanet.org/most-common-ux-design-methods-and-techniques-c9a9fdc25a1e&quot;&gt;Most Common UX Methods &amp;amp; Techniques&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d&quot;&gt;UX Design Deliverables&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;Articles&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Design Process&lt;/li&gt;
+    &lt;li&gt;Material Design&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;Javascript Resources&lt;/h3&gt;
+&lt;p&gt;For an even more comprehensive list, check this
+   &lt;a href=&quot;https://github.com/snipcart/learn-vanilla-js&quot;&gt;link&lt;/a&gt;
+   &lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://javascript30.com/&quot;&gt;Javascript 30 - learn JS in 30 days&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;https://www.learn-js.org/&quot;&gt;Learn JS&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/introduction-to-javascript&quot;&gt;Intro to JS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/micromata/awesome-javascript-learning&quot;&gt;&lt;/a&gt;Awesome JS&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://javascript.info/&quot;&gt;JS Info&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://javascriptissexy.com/how-to-learn-javascript-properly/&quot;&gt;JS is Sexy&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;HTML Resources&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-html&quot;&gt;Learn HTML&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://html.com/&quot;&gt;HTML official tutorial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://medium.freecodecamp.org/learn-html-in-5-minutes-ccd378d2ab72&quot;&gt;Learn html in 5 mins&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h4&gt;Books&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118871642&quot;&gt;
+       HTML CSS Design: Build Websites
+      &lt;/a&gt;
+      &lt;/li&gt;
+    &lt;li&gt;Material Design&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;CSS Resources&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-css&quot;&gt;Learn CSS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://zendev.com/ultimate-guide-to-learning-css.html&quot;&gt;Ultimate Guide to Learning CSS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/where-do-you-learn-html-css-in-2019/&quot;&gt;Where do you learn html/css in 2019&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h3&gt;Git Resources&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Design Process&lt;/li&gt;
+    &lt;li&gt;Material Design&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;How to get started&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create &lt;a href=&quot;https://github.com/&quot;&gt;GitHub account &lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;Create dribbble account&lt;/li&gt;
+  &lt;li&gt;Read UX Blogs&lt;/li&gt;
+  &lt;li&gt;Explore &amp;amp; Create Codepen&lt;/li&gt;
+  &lt;li&gt;Create in pure CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope you enjoyed this writeup, if you have any questions, feel free to tweet at me: &lt;a href=&quot;https://twitter.com/marcoapineda13&quot;&gt;@marcoapineda13 &lt;/a&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary type="html">If you're thinking about getting into tech, UX Designer may be for you. Note: post inspired by this post</summary></entry><entry><title type="html">Basics of Computer Vision &amp;amp; OpenCV</title><link href="http://localhost:4000/2017/06/24/basics-of-computer-vision-and-open-cv/" rel="alternate" type="text/html" title="Basics of Computer Vision &amp; OpenCV" /><published>2017-06-24T03:07:00-05:00</published><updated>2017-06-24T03:07:00-05:00</updated><id>http://localhost:4000/2017/06/24/basics-of-computer-vision-and-open-cv</id><content type="html" xml:base="http://localhost:4000/2017/06/24/basics-of-computer-vision-and-open-cv/">&lt;p&gt;
   This post covers the basics of Computer Vision and Open CV.
   &lt;p&gt;
 
@@ -147,10 +264,10 @@ import cv2
 import numpy as np
 
 #read image using cv2.imread()
-input = cv2.imread(&#39;./images/input.jpg&#39;, 0)
+input = cv2.imread('./images/input.jpg', 0)
 
 #output to grayscale using cv2.imshow()
-cv2.imshow(&#39;Grayscale&#39;, input)
+cv2.imshow('Grayscale', input)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 &lt;/pre&gt;
@@ -188,13 +305,13 @@ cv2.destroyAllWindows()
     &lt;p&gt;See tutorial on Drawing Images using OpenCV&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;/p&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>This post covers the basics of Computer Vision and Open CV.</summary></entry><entry><title>How To Host Static Site using AWS S3 - Tutorial</title><link href="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/" rel="alternate" type="text/html" title="How To Host Static Site using AWS S3 - Tutorial" /><published>2017-01-08T03:07:00-06:00</published><updated>2017-01-08T03:07:00-06:00</updated><id>http://owlery.club/2017/01/08/aws-s3-static-site-tutorial</id><content type="html" xml:base="http://owlery.club/2017/01/08/aws-s3-static-site-tutorial/">&lt;p&gt;
-AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon&#39;s suite of services. I&#39;ve studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to &lt;a href=&quot;https://twitter.com/samkroon&quot;&gt;Sam Kroonenburg&lt;/a&gt; and &lt;a href=&quot;https://t.co/VbhlVUys1z&quot;&gt;acloud.guru&lt;/a&gt; for an awesome course! ) and today I&#39;ve learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
+&lt;/p&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary type="html">This post covers the basics of Computer Vision and Open CV.</summary></entry><entry><title type="html">How To Host Static Site using AWS S3 - Tutorial</title><link href="http://localhost:4000/2017/01/08/aws-s3-static-site-tutorial/" rel="alternate" type="text/html" title="How To Host Static Site using AWS S3 - Tutorial" /><published>2017-01-08T03:07:00-06:00</published><updated>2017-01-08T03:07:00-06:00</updated><id>http://localhost:4000/2017/01/08/aws-s3-static-site-tutorial</id><content type="html" xml:base="http://localhost:4000/2017/01/08/aws-s3-static-site-tutorial/">&lt;p&gt;
+AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon's suite of services. I've studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to &lt;a href=&quot;https://twitter.com/samkroon&quot;&gt;Sam Kroonenburg&lt;/a&gt; and &lt;a href=&quot;https://t.co/VbhlVUys1z&quot;&gt;acloud.guru&lt;/a&gt; for an awesome course! ) and today I've learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.
 &lt;/p&gt;
 
 &lt;p&gt;
 This tutorial assumes you have an AWS account (if not, create a free one, super easy) and that you know basic HTML.
-Before we get into the tutorial, let&#39;s review why hosting on S3 is so wonderful. Skip this if you want to get to the tutorial.
+Before we get into the tutorial, let's review why hosting on S3 is so wonderful. Skip this if you want to get to the tutorial.
 &lt;/p&gt;
 
 &lt;h2&gt;Why S3?&lt;/h2&gt;
@@ -205,13 +322,13 @@ Before we get into the tutorial, let&#39;s review why hosting on S3 is so wonder
     &lt;li&gt;Simple&lt;/li&gt;
     &lt;li&gt;Scales Automatically&lt;/li&gt;
     &lt;li&gt;Serverless&lt;/li&gt;
-    &lt;li&gt;Don&#39;t have to worry about load balancing&lt;/li&gt;
+    &lt;li&gt;Don't have to worry about load balancing&lt;/li&gt;
   &lt;/ul&gt;
 
 &lt;h4&gt;Cons&lt;/h4&gt;
 &lt;ul&gt;
     &lt;li&gt;Static content only&lt;/li&gt;
-    &lt;li&gt;Can&#39;t do something server-side&lt;/li&gt;
+    &lt;li&gt;Can't do something server-side&lt;/li&gt;
   &lt;/ul&gt;
 
 &lt;p&gt;Let me reiterate that S3 is only for static content. This means no Dot Net, PHP etc. S3 is ideal for landing pages.&lt;/p&gt;
@@ -224,12 +341,12 @@ Before we get into the tutorial, let&#39;s review why hosting on S3 is so wonder
 
 &lt;h3&gt;Le Grand Tutorial&lt;/h3&gt;
 &lt;p&gt;
-  Alright, you&#39;ve made it this far. Great! Let&#39;s get to it. This tutorial assumes you&#39;ve already made a free AWS account. Go ahead and &lt;a href=&quot;https://aws.amazon.com/console/&quot; target=&quot;blank&quot;&gt;log in&lt;/a&gt;.  
+  Alright, you've made it this far. Great! Let's get to it. This tutorial assumes you've already made a free AWS account. Go ahead and &lt;a href=&quot;https://aws.amazon.com/console/&quot; target=&quot;blank&quot;&gt;log in&lt;/a&gt;.  
   &lt;/p&gt;
 
 &lt;h3&gt;Step 1&lt;/h3&gt;
 &lt;p&gt;
-  Once you&#39;re logged in to AWS Management Console, navigate to Services and Click on S3.
+  Once you're logged in to AWS Management Console, navigate to Services and Click on S3.
   &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
@@ -256,7 +373,7 @@ Before we get into the tutorial, let&#39;s review why hosting on S3 is so wonder
 
 &lt;h3&gt;Step 4&lt;/h3&gt;
 &lt;p&gt;
-  Create an index.html page and error.html page in your favorite code editor. I&#39;m using Atom.
+  Create an index.html page and error.html page in your favorite code editor. I'm using Atom.
   &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
@@ -286,8 +403,8 @@ Before we get into the tutorial, let&#39;s review why hosting on S3 is so wonder
   Go into properties, go to static site hosting and click on the AWS endpoint to take you to your newly hosted static site!
   &lt;/p&gt;
 
-&lt;p&gt;Hope you enjoyed this tutorial, if you have any questions, feel free to tweet at me: &lt;a href=&quot;https://twitter.com/marcoapineda13&quot;&gt;@marcoapineda13 &lt;/a&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon&#39;s suite of services. I&#39;ve studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to Sam Kroonenburg and acloud.guru for an awesome course! ) and today I&#39;ve learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.</summary></entry><entry><title>Angular 2 vs React</title><link href="http://owlery.club/2016/08/14/angular-2-vs-react/" rel="alternate" type="text/html" title="Angular 2 vs React" /><published>2016-08-14T20:27:00-05:00</published><updated>2016-08-14T20:27:00-05:00</updated><id>http://owlery.club/2016/08/14/angular-2-vs-react</id><content type="html" xml:base="http://owlery.club/2016/08/14/angular-2-vs-react/">&lt;p&gt;
-Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:
+&lt;p&gt;Hope you enjoyed this tutorial, if you have any questions, feel free to tweet at me: &lt;a href=&quot;https://twitter.com/marcoapineda13&quot;&gt;@marcoapineda13 &lt;/a&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary type="html">AWS is the uncontested IAAS provider. Sure, there are other services like Azure, Google Cloud and VMware but none come close to matching Amazon's suite of services. I've studying up to take the AWS Certified Cloud Architect - Associate exam ( shout out to Sam Kroonenburg and acloud.guru for an awesome course! ) and today I've learned how to host a static site using AWS S3. Tonight, I will pass on this knowledge on to you.</summary></entry><entry><title type="html">Angular 2 vs React</title><link href="http://localhost:4000/2016/08/14/angular-2-vs-react/" rel="alternate" type="text/html" title="Angular 2 vs React" /><published>2016-08-14T20:27:00-05:00</published><updated>2016-08-14T20:27:00-05:00</updated><id>http://localhost:4000/2016/08/14/angular-2-vs-react</id><content type="html" xml:base="http://localhost:4000/2016/08/14/angular-2-vs-react/">&lt;p&gt;
+Do a google search of 'javascript frameworks' and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:
 &lt;/p&gt;
 
 &lt;ol&gt;
@@ -305,7 +422,7 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 &lt;h2&gt;Angular&lt;/h2&gt;
 &lt;p&gt;
   Created in 2009 by Google, Angular is considered the most used JavaScript framework for developing Single Page Applications (SPA)
-  Most recently, Angular 2 hit beta. I&#39;ll be comparing Angular 1 vs Angular 2 in another blog post coming soon. This post will compare Angular 2 vs React
+  Most recently, Angular 2 hit beta. I'll be comparing Angular 1 vs Angular 2 in another blog post coming soon. This post will compare Angular 2 vs React
 
   &lt;strong&gt;Disclaimer&lt;/strong&gt;: Technically, yes, React is a library and Angular, a framework; however, they still aid in the MV* functionality of the web and such can be compared.
 
@@ -387,17 +504,17 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
   &lt;/p&gt;
 
   &lt;p&gt;
-  JavaScript is far more powerful than HTML. Thus, it’s more logical to enhance JavaScript to support markup than to enhance HTML to support logic. HTML and JavaScript need to be glued together somehow, and React’s JavaScript-centric approach is fundamentally superior to Angular&#39;s HTML-centric approach.
+  JavaScript is far more powerful than HTML. Thus, it’s more logical to enhance JavaScript to support markup than to enhance HTML to support logic. HTML and JavaScript need to be glued together somehow, and React’s JavaScript-centric approach is fundamentally superior to Angular's HTML-centric approach.
   &lt;/p&gt;
 
   &lt;p&gt;
-  Angular 2 continues Angular 1’s approach of trying to make HTML more powerful. So you have to utilize Angular 2&#39;s unique syntax for simple tasks like looping and conditionals. For example, Angular 2 offers both one and two way binding via two syntaxes that are unfortunately quite different:
+  Angular 2 continues Angular 1’s approach of trying to make HTML more powerful. So you have to utilize Angular 2's unique syntax for simple tasks like looping and conditionals. For example, Angular 2 offers both one and two way binding via two syntaxes that are unfortunately quite different:
   &lt;/p&gt;
 
 
   &lt;h2&gt;Tech Specs&lt;/h2&gt;
   &lt;p&gt;
-  Alright, let&#39;s get down to the nitty-gritty. The Tech Specs.
+  Alright, let's get down to the nitty-gritty. The Tech Specs.
   &lt;/p&gt;
 
   &lt;ul&gt;
@@ -427,11 +544,11 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
   &lt;p&gt;
   Angular 2’s size and syntax is considerably bigger than React. Angular’s commitment to HTML-centric design makes it complex compared to React’s simpler JavaScript-centric model. In React, you don’t learn framework-specific HTML shims like ngWhatever.
   &lt;/p&gt;
-&lt;/angularComponent&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:</summary></entry><entry><title>Data Alchemy</title><link href="http://owlery.club/2016/08/08/data-alchemy/" rel="alternate" type="text/html" title="Data Alchemy" /><published>2016-08-08T07:05:00-05:00</published><updated>2016-08-08T07:05:00-05:00</updated><id>http://owlery.club/2016/08/08/data-alchemy</id><content type="html" xml:base="http://owlery.club/2016/08/08/data-alchemy/">&lt;p&gt;Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.&lt;/p&gt;
+&lt;/angularComponent&gt;&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary type="html">Do a google search of 'javascript frameworks' and you get nearly 39MM results in .55 seconds. A top five search on Github lists these frameworks as the most popular in order from most popular to least:</summary></entry><entry><title type="html">Data Alchemy</title><link href="http://localhost:4000/2016/08/08/data-alchemy/" rel="alternate" type="text/html" title="Data Alchemy" /><published>2016-08-08T07:05:00-05:00</published><updated>2016-08-08T07:05:00-05:00</updated><id>http://localhost:4000/2016/08/08/data-alchemy</id><content type="html" xml:base="http://localhost:4000/2016/08/08/data-alchemy/">&lt;p&gt;Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.&lt;/p&gt;
 
 &lt;p&gt;Data Science industry paragraph. Major innovations (e.g., Hadoop, Cassandra, HBase, Pig, Hive etc) have made data products easier to build. While the tools surrounding the industry have improved, data products are unique in that they are often difficult, complex and expensive for small teams with limited funds.&lt;/p&gt;
 
-&lt;p&gt;To begin, we define a Data Product as a product that facilitates an end goal through the use of data. The fundamental idea in Data Mining is that you shouldn&#39;t solve the whole problem at once. Solve a simple piece that shows you whether there is interest, then build the MVP. Before you begin you must answer some questions:&lt;/p&gt;
+&lt;p&gt;To begin, we define a Data Product as a product that facilitates an end goal through the use of data. The fundamental idea in Data Mining is that you shouldn't solve the whole problem at once. Solve a simple piece that shows you whether there is interest, then build the MVP. Before you begin you must answer some questions:&lt;/p&gt;
 &lt;ol&gt;
     &lt;li&gt;Does anyone want or need your product?&lt;/li&gt;
     &lt;li&gt;Does the customer care?&lt;/li&gt;
@@ -451,17 +568,17 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
     &lt;li&gt;Prompt the user with &quot;Did you mean...?&quot;&lt;/li&gt;
   &lt;/ul&gt;
 
-&lt;p&gt;The point is to have a conversation with your user rather than just a form. Engage the user to help you. This makes your analysis that much easier. Doing this solves two problems. 1) You&#39;re getting the user more involved and 2) you&#39;re getting clean data. &lt;/p&gt;
+&lt;p&gt;The point is to have a conversation with your user rather than just a form. Engage the user to help you. This makes your analysis that much easier. Doing this solves two problems. 1) You're getting the user more involved and 2) you're getting clean data. &lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Make Winning Easy&lt;/h2&gt;
 
-&lt;p&gt;Back when Amazon first began, pages contained product details, reviews, price and a button to buy the item. A user had no way to do comparison shopping. The user either went to the search box or left the site and went back to Google. Amazon needed to build pages that channeled users to other relevant products. They could have built a sophisticated recommendations engine but opted for a simpler system. They built &#39;collaborative filters&#39; that added &quot;People who viewed this product also viewed&quot; to their pages. This was huge! Now, users can do product research without leaving the site and if they don&#39;t see what they want right away, Amazon channels them to another page.&lt;/p&gt;
+&lt;p&gt;Back when Amazon first began, pages contained product details, reviews, price and a button to buy the item. A user had no way to do comparison shopping. The user either went to the search box or left the site and went back to Google. Amazon needed to build pages that channeled users to other relevant products. They could have built a sophisticated recommendations engine but opted for a simpler system. They built 'collaborative filters' that added &quot;People who viewed this product also viewed&quot; to their pages. This was huge! Now, users can do product research without leaving the site and if they don't see what they want right away, Amazon channels them to another page.&lt;/p&gt;
 
 &lt;p&gt;Collaborative filters is a great example of starting with a simple product that becomes more complex, once you know it works. As you begin to scale, you have to track the data for all purchases, then build the data stores to hold the data, then a processing layer, then developing processes to update the data&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Create a Product for the Real World&lt;/h2&gt;
 
-&lt;p&gt;When you go into a store to buy something, you might look at prices and or reviews. Most likely you&#39;ll look at similar products near by. By adding a collaborative filter, Amazon built this experience into their web page. They crafted their digital product based off every day experiences centered around buying a product in the real world.&lt;/p&gt;
+&lt;p&gt;When you go into a store to buy something, you might look at prices and or reviews. Most likely you'll look at similar products near by. By adding a collaborative filter, Amazon built this experience into their web page. They crafted their digital product based off every day experiences centered around buying a product in the real world.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
@@ -472,13 +589,13 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Give Data Back to the User to Create Additional Value&lt;/h2&gt;
 
-&lt;p&gt;Give data back to the user and you can create both revenue and engagement. Users are no longer the customer, they are the product. They are &#39;data generators&#39; that either assist in ad targeting or are sold to the highest bidder, or both. Giving data back to the user shows them that you&#39;re on their side and engagement should increase. With added engagement, you can test and analyze data and gain new insights and continue this cycle until your engagement tapers off.&lt;/p&gt;
+&lt;p&gt;Give data back to the user and you can create both revenue and engagement. Users are no longer the customer, they are the product. They are 'data generators' that either assist in ad targeting or are sold to the highest bidder, or both. Giving data back to the user shows them that you're on their side and engagement should increase. With added engagement, you can test and analyze data and gain new insights and continue this cycle until your engagement tapers off.&lt;/p&gt;
 
-&lt;p&gt;How do you give data back to the user? Some examples are LinkedIn&#39;s product called &quot;Who&#39;s Viewed Your Profile.&quot; This product lists the people who&#39;ve viewed your profile. The data is timely and actionable and most importantly &lt;i&gt;addictive&lt;/i&gt;. Mint studies your credit card transactions to help you understand expenses and income and compare them to others in your demographic.&lt;/p&gt;
+&lt;p&gt;How do you give data back to the user? Some examples are LinkedIn's product called &quot;Who's Viewed Your Profile.&quot; This product lists the people who've viewed your profile. The data is timely and actionable and most importantly &lt;i&gt;addictive&lt;/i&gt;. Mint studies your credit card transactions to help you understand expenses and income and compare them to others in your demographic.&lt;/p&gt;
 
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.</summary></entry><entry><title>Binary 101</title><link href="http://owlery.club/2016/08/01/binary-101/" rel="alternate" type="text/html" title="Binary 101" /><published>2016-08-01T07:06:00-05:00</published><updated>2016-08-01T07:06:00-05:00</updated><id>http://owlery.club/2016/08/01/binary-101</id><content type="html" xml:base="http://owlery.club/2016/08/01/binary-101/">&lt;p&gt;1703 Gottfried Wilhelm Leibniz invents the Binary System.&lt;/p&gt;
+&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary type="html">Never in all their history has humanity been blessed with so much information. By the end of 2016, global IP traffic will reach 1.1 ZB per year or 88.7 EB per month. This means that in the course of a day, the average person in a Western city is said to be exposed to as much data as someone in the 15th century would encounter in their entire life.</summary></entry><entry><title type="html">Binary 101</title><link href="http://localhost:4000/2016/08/01/binary-101/" rel="alternate" type="text/html" title="Binary 101" /><published>2016-08-01T07:06:00-05:00</published><updated>2016-08-01T07:06:00-05:00</updated><id>http://localhost:4000/2016/08/01/binary-101</id><content type="html" xml:base="http://localhost:4000/2016/08/01/binary-101/">&lt;p&gt;1703 Gottfried Wilhelm Leibniz invents the Binary System.&lt;/p&gt;
 
-&lt;p&gt;Leibniz (1646 -1716 ) was a German philosopher, polymath, and mathematician who wrote primarily in Latin and French. The modern binary number system was fully documented by Gottfried Leibniz in the 17th century in his article Explication de l&#39;Arithmétique Binaire. Leibniz&#39;s system used 0 and 1, like the modern binary numeral system. Leibniz was aware of the I Ching and noted with fascination how its hexagrams correspond to the binary numbers from 0 to 111111.&lt;/p&gt;
+&lt;p&gt;Leibniz (1646 -1716 ) was a German philosopher, polymath, and mathematician who wrote primarily in Latin and French. The modern binary number system was fully documented by Gottfried Leibniz in the 17th century in his article Explication de l'Arithmétique Binaire. Leibniz's system used 0 and 1, like the modern binary numeral system. Leibniz was aware of the I Ching and noted with fascination how its hexagrams correspond to the binary numbers from 0 to 111111.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Why Binary Matters&lt;/h2&gt;
 
@@ -486,4 +603,4 @@ Do a google search of &#39;javascript frameworks&#39; and you get nearly 39MM re
 
 &lt;h2 class=&quot;section-heading&quot;&gt;How Binary Works&lt;/h2&gt;
 
-&lt;p&gt;Binary numbers are written with only two symbols - 0 and 1. For example, a = 1101. Since symbols 0 and 1 are also a part of the decimal system and in fact of a positional system with any base, there&#39;s an ambiguity as to what 1101 actually stands for. To avoid confusion, the base is often written explicitly, like in a = (1101)2 or b = (1101)10. In the decimal system, 1101 is interpreted as 1 thousand 1 hundred 1, which is just a sum of powers of 10 with coefficients that are the digits of the number&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary>1703 Gottfried Wilhelm Leibniz invents the Binary System.</summary></entry></feed>
+&lt;p&gt;Binary numbers are written with only two symbols - 0 and 1. For example, a = 1101. Since symbols 0 and 1 are also a part of the decimal system and in fact of a positional system with any base, there's an ambiguity as to what 1101 actually stands for. To avoid confusion, the base is often written explicitly, like in a = (1101)2 or b = (1101)10. In the decimal system, 1101 is interpreted as 1 thousand 1 hundred 1, which is just a sum of powers of 10 with coefficients that are the digits of the number&lt;/p&gt;</content><author><name>Marco Pineda</name></author><summary type="html">1703 Gottfried Wilhelm Leibniz invents the Binary System.</summary></entry></feed>

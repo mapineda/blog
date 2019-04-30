@@ -1,7 +1,7 @@
 # Site settings
 title: Owlery Club
 header-img: img/main-blog-bg.jpg
-logo: img/logo.png  
+logo: img/logo.png
 email: info@owlery.club
 copyright_name: Owlery Club
 description: "In the professional world of tomorrow, you have to know two things, the basics of business and the basics of coding."
@@ -23,4 +23,4 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]

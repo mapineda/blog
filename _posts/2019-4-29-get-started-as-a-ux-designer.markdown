@@ -9,7 +9,8 @@ header-img: 'img/post-sample-image.jpg'
 
 <p>
 If you're thinking about getting into tech, UX Designer may be for you.
-Note: post inspired by https://cvcompiler.com/blog/do-designers-dream-of-electric-sheep-the-most-demanded-design-tech-skills/
+Note: post inspired by this
+<a href="https://cvcompiler.com/blog/do-designers-dream-of-electric-sheep-the-most-demanded-design-tech-skills/" >post</a>
 </p>
 
 <p>
@@ -24,10 +25,10 @@ This is a brief overview over the tools, knowledge and resources to help you on
 
   <h3>TLDR</h3>
   <ul>
-    <li>https://github.com/netoguimaraes/awesome-ux</li>
-    <li>https://github.com/micromata/awesome-javascript-learning</li>
-    <li>https://github.com/awesome-css-group/awesome-css#readme</li>
-    <li>https://github.com/diegocard/awesome-html5#readme</li>
+    <li><a href="https://github.com/netoguimaraes/awesome-ux">Awesome UX</a></li>
+    <li><a href="https://github.com/micromata/awesome-javascript-learning">Awesome JS</a></li>
+    <li><a href="https://github.com/awesome-css-group/awesome-css#readme">Awesome CSS</a></li>
+    <li><a href="https://github.com/diegocard/awesome-html5#readme">Awesome HTML</a></li>
   </ul>
 
 
@@ -58,11 +59,9 @@ This is a brief overview over the tools, knowledge and resources to help you on
 
   <h3>Toolbox: Design Methodologies</h3>
   <ul>
-    <li>https://uxplanet.org/most-common-ux-design-methods-and-techniques-c9a9fdc25a1e</li>
-    <li>https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d</li>
+    <li><a href="https://uxplanet.org/most-common-ux-design-methods-and-techniques-c9a9fdc25a1e">Most Common UX Methods & Techniques</a></li>
+    <li><a href="https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d">UX Design Deliverables</a></li>
   </ul>
-
-  <hr>
 
   <h3>Articles</h3>
   <ul>
@@ -76,19 +75,21 @@ This is a brief overview over the tools, knowledge and resources to help you on
    </p>
 
   <ul>
-    <li>https://javascript30.com/</li>
-    <li>https://www.learn-js.org/</li>
-    <li>https://www.codecademy.com/learn/introduction-to-javascript</li>
-    <li>https://github.com/micromata/awesome-javascript-learning</li>
-    <li>https://javascript.info/</li>
-    <li>http://javascriptissexy.com/how-to-learn-javascript-properly/</li>
+    <li><a href="https://javascript30.com/">Javascript 30 - learn JS in 30 days</a></li>
+    <li>
+      <a href="https://www.learn-js.org/">Learn JS</a>
+    </li>
+    <li><a href="https://www.codecademy.com/learn/introduction-to-javascript">Intro to JS</a></li>
+    <li><a href="https://github.com/micromata/awesome-javascript-learning"></a>Awesome JS</li>
+    <li><a href="https://javascript.info/">JS Info</a></li>
+    <li><a href="http://javascriptissexy.com/how-to-learn-javascript-properly/">JS is Sexy</a></li>
   </ul>
 
   <h3>HTML Resources</h3>
   <ul>
-    <li>https://www.codecademy.com/learn/learn-html</li>
-    <li>https://html.com/</li>
-    <li>https://medium.freecodecamp.org/learn-html-in-5-minutes-ccd378d2ab72</li>
+    <li><a href="https://www.codecademy.com/learn/learn-html">Learn HTML</a></li>
+    <li><a href="https://html.com/">HTML official tutorial</a></li>
+    <li><a href="https://medium.freecodecamp.org/learn-html-in-5-minutes-ccd378d2ab72">Learn html in 5 mins</a></li>
   </ul>
 
   <h4>Books</h4>
@@ -104,9 +105,9 @@ This is a brief overview over the tools, knowledge and resources to help you on
 
   <h3>CSS Resources</h3>
   <ul>
-    <li>https://www.codecademy.com/learn/learn-css</li>
-    <li>https://zendev.com/ultimate-guide-to-learning-css.html</li>
-    <li>https://css-tricks.com/where-do-you-learn-html-css-in-2019/</li>
+    <li><a href="https://www.codecademy.com/learn/learn-css">Learn CSS</a></li>
+    <li><a href="https://zendev.com/ultimate-guide-to-learning-css.html">Ultimate Guide to Learning CSS</a></li>
+    <li><a href="https://css-tricks.com/where-do-you-learn-html-css-in-2019/">Where do you learn html/css in 2019</a></li>
   </ul>
 
   <h3>Git Resources</h3>
